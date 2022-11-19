@@ -1,0 +1,12 @@
+#tuple
+fruit = ('Orange','Mango','Cherry')
+print('fruit in tuple ', fruit)
+newfruit = list(fruit)
+print('fruit now changed to list ', newfruit)
+
+newfruit[2] = 'Apple'
+# Converted to list and index 2 changed to Apple
+newfruit
+
+# now reconverted to tuple
+print(' Fruit Now Converted to tuple ', tuple(newfruit))
